@@ -1,25 +1,57 @@
-h1 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-}
-
 body {
   margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-.top {
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.header-descrip {
+  font-weight: normal;
+}
+
+.footer-link {
+  color: #11999E;
+}
+
+.top-container {
   background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
 }
 
-.middle {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+.middle-container {
+
+}
+.bottom-container {
+
 }
 
-.bottom {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 400px;
+
 }
